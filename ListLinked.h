@@ -95,7 +95,7 @@ public:
         return aux->data;
     }
 
-    int search(T e) override {
+    int search(T e) {
         Node<T>* aux = first;
         for (int i = 0; i < n; i++) {
             if (aux->data == e) {
