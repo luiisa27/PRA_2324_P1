@@ -124,6 +124,11 @@ public:
         out << "]";
         return out;
     }
+
+    void capicua_list() override {
+    // No usado
+}
+
 };
 
 #endif
